@@ -354,7 +354,7 @@ final class FileCache implements CacheInterface
 
     /**
      * Converts iterable to array. If provided value is not iterable it throws an InvalidArgumentException
-     * @param $iterable
+     * @param mixed $iterable
      * @return array
      */
     private function iterableToArray($iterable): array
@@ -367,7 +367,7 @@ final class FileCache implements CacheInterface
     }
 
     /**
-     * @param $key
+     * @param mixed $key
      */
     private function validateKey($key): void
     {
